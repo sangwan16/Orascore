@@ -68,6 +68,10 @@ The app is designed as a modern healthcare workflow tool that can support:
 
 Project demo: https://youtu.be/CFbcFyvSOuo?si=jAcsxJB2LH4An8t7
 
+## Get the APK
+
+If you want to try the app, you can send an email to: sangwanakash163@gmail.com
+
 ## Notes
 
 This project is currently in development and is focused on the core patient onboarding and health-record workflow. It lays the foundation for future enhancements such as appointment tracking, AI recommendations, and a more complete dental clinic management experience.
