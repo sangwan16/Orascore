@@ -1,8 +1,54 @@
-# Welcome to your Expo app 👋
+# Dentist Bot
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Dentist Bot is a mobile app built to make dental patient intake and oral health tracking easier, more organized, and more user-friendly. The app helps patients store their personal details, medical history, dental history, and lifestyle factors that may affect oral health.
 
-## Get started
+## App vision
+
+Dentists and clinics often rely on paper forms and repetitive onboarding steps. Dentist Bot aims to digitalize that process by giving patients a simple way to register, update details, and share important health information before a visit.
+
+The app is designed as a modern healthcare workflow tool that can support:
+
+- quick patient registration
+- secure authentication
+- personal profile management
+- medical and dental history collection
+- future AI-driven dental assistance and decision support
+
+## Features
+
+- User sign-up and login using Supabase Auth
+- Patient profile storage with personal and health-related information
+- Capture of key health data such as:
+  - thyroid condition
+  - diabetes
+  - hypertension
+  - dental fillings
+  - extractions
+  - root canal treatment
+  - removable dentures
+  - smoking, vaping, tobacco, and alcohol habits
+- Clean mobile UI built with React Native and Expo
+- Backend data management with Supabase
+
+## Tech stack
+
+- React Native
+- Expo Router
+- TypeScript
+- Supabase
+- AsyncStorage
+- Expo Secure Store
+
+## Project structure
+
+- `app/` — app screens and navigation
+- `auth/` — authentication logic and auth context
+- `db/` — database schema and CRUD helpers
+- `utils/` — Supabase client setup
+- `components/` — reusable UI components
+- `constants/` — app constants and theme values
+
+## Getting started
 
 1. Install dependencies
 
@@ -10,41 +56,18 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
    npm install
    ```
 
-2. Start the app
+2. Start the Expo app
 
    ```bash
    npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+3. Run it on Android, iOS, or web using the Expo developer tools.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Demo video
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Project demo: https://youtu.be/CFbcFyvSOuo?si=jAcsxJB2LH4An8t7
 
-## Get a fresh project
+## Notes
 
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+This project is currently in development and is focused on the core patient onboarding and health-record workflow. It lays the foundation for future enhancements such as appointment tracking, AI recommendations, and a more complete dental clinic management experience.
